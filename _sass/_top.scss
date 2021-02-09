@@ -1,0 +1,53 @@
+.exempledecss {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    max-width: 100%;
+    }
+
+@media only screen and (max-width: 400px) { //adaptive design = comment faire pour adapter le design en fonctiond de la taille de la fenêtre...
+    .boutique {
+        width: 100%;
+    }
+    .abonnement p {
+        width: 100%;
+    }
+    .boutique p {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+
+
+    .cloche {
+        width: 60px;
+        height: auto;
+        align-self: baseline;
+    }
+    .promos {
+        width: 80px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+
+    .illustration-abonnement {
+        display: initial;
+    }
+    .illustration-boutique{
+        display: initial;
+    } 
+    .boutique {
+        margin-top: 80px;
+        width: 900px;
+        margin-left: 0%;
+    }
+    .abonnement {
+        margin-top: 80px;
+        width: 900px;
+        margin-right: 0%;
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/main.scss",
+		"_sass/_top.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n",
+		"$backgroundColor: #ffffff;\r\n$bodyColor: #000000;\r\n$bodyFont: -apple-system,BlinkMacSystemFont,\"Segoe UI\",Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";\r\n\r\nbody {\r\n  background: $backgroundColor;\r\n  color: $bodyColor;\r\n  font-family: $bodyFont;\r\n}\r\n\r\n@import \"top\";",
+		".exempledecss {\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n    height: auto;\r\n    max-width: 100%;\r\n    }\r\n\r\n@media only screen and (max-width: 400px) { //adaptive design = comment faire pour adapter le design en fonctiond de la taille de la fenêtre...\r\n    .boutique {\r\n        width: 100%;\r\n    }\r\n    .abonnement p {\r\n        width: 100%;\r\n    }\r\n    .boutique p {\r\n        width: 100%;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 700px) {\r\n\r\n\r\n    .cloche {\r\n        width: 60px;\r\n        height: auto;\r\n        align-self: baseline;\r\n    }\r\n    .promos {\r\n        width: 80px;\r\n        height: auto;\r\n    }\r\n}\r\n\r\n@media only screen and (min-width: 1100px) {\r\n\r\n    .illustration-abonnement {\r\n        display: initial;\r\n    }\r\n    .illustration-boutique{\r\n        display: initial;\r\n    } \r\n    .boutique {\r\n        margin-top: 80px;\r\n        width: 900px;\r\n        margin-left: 0%;\r\n    }\r\n    .abonnement {\r\n        margin-top: 80px;\r\n        width: 900px;\r\n        margin-right: 0%;\r\n    }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "ACIA,AAAA,IAAI,CAAC,EACH,UAAU,EALM,OAAO,EAMvB,KAAK,EALK,OAAO,EAMjB,WAAW,EALF,aAAa,EAAC,kBAAkB,EAAC,UAAU,EAAC,SAAS,EAAC,KAAK,EAAC,UAAU,EAAC,mBAAmB,EAAC,gBAAgB,EAAC,iBAAiB,GAMvI;;ACRD,AAAA,aAAa,CAAC,EACV,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,MAAM,EACtB,eAAe,EAAE,aAAa,EAC9B,MAAM,EAAE,IAAI,EACZ,SAAS,EAAE,IAAI,GACd;;AAEL,MAAM,mCACF,GAAA,AAAA,SAAS,CAAC,EACN,KAAK,EAAE,IAAI,GACd,CACD,AAAA,WAAW,CAAC,CAAC,CAAC,EACV,KAAK,EAAE,IAAI,GACd,CACD,AAAA,SAAS,CAAC,CAAC,CAAC,EACR,KAAK,EAAE,IAAI,GACd,EANA;;AASL,MAAM,mCAGF,GAAA,AAAA,OAAO,CAAC,EACJ,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,EACZ,UAAU,EAAE,QAAQ,GACvB,CACD,AAAA,OAAO,CAAC,EACJ,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,GACf,EAJA;;AAOL,MAAM,oCAEF,GAAA,AAAA,wBAAwB,CAAC,EACrB,OAAO,EAAE,OAAO,GACnB,CACD,AAAA,sBAAsB,CAAA,EAClB,OAAO,EAAE,OAAO,GACnB,CACD,AAAA,SAAS,CAAC,EACN,UAAU,EAAE,IAAI,EAChB,KAAK,EAAE,KAAK,EACZ,WAAW,EAAE,EAAE,GAClB,CACD,AAAA,WAAW,CAAC,EACR,UAAU,EAAE,IAAI,EAChB,KAAK,EAAE,KAAK,EACZ,YAAY,EAAE,EAAE,GACnB,EAbA"
+}
